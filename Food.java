@@ -7,39 +7,18 @@ package cavedweller;
 
 /**
  *
- * @author jword
+ * @author 808652
  */
 public class Food {
     //Fields
-    private String name;
-    private int x, y, hpChange;
-    private boolean eaten;
+     int x, y;
     //Constructor
-    
+    public Food(int x, int y) {
+        this.x = x;
+        this.y = y;
+      
     //Methods
-    public String toString() {
-        return "";
-    }
-    //Accessors
-
-    public String getName() {
-        return name;
-    }
-
-    public int getX() {
-        return x;
-    }
-
-    public int getY() {
-        return y;
-    }
-
-    public int getHPChange() {
-        return hpChange;
-    }
-
-    public boolean isEaten() {
-        return eaten;
-    }
     
+    //Accessors
+}
 }
