@@ -1,4 +1,3 @@
-
 package cavedweller;
 
 import java.util.Scanner;
@@ -20,11 +19,11 @@ public class CaveDweller {
        
        String input = "";
        while (!input.equals("close")) {
-       String input = kboard.nextLine();
+       input = kboard.nextLine();
        cave.handleInput(input);
-       cave.caveman.moveUp();
-       System.out.println(cave.caveman.toString());
+       }
       // cave.caveman.speak();
-    }
     
+    
+}
 }
